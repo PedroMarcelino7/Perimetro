@@ -47,27 +47,27 @@ if (isset($_POST['button1'])) {
         </div>
 
         <div class="row mt-5">
-            <div class="col-4 offset-4">
+            <div class="col-8 col-md-4 offset-2 offset-md-4">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3 mb-4 mb-md-0">
                         <div class="p-2 bg-light rounded-3 d-flex justify-content-center align-items-center options"
                             onclick="changeClass('Retangulo')">
                             <img class="img-fluid" src="./images/retangulo.png" alt="">
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3 mb-4 mb-md-0">
                         <div class="p-2 bg-light rounded-3 d-flex justify-content-center align-items-center options"
                             onclick="changeClass('Quadrado')">
                             <img class="img-fluid" src="./images/quadrado.png" alt="">
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="p-2 bg-light rounded-3 d-flex justify-content-center align-items-center options"
                             onclick="changeClass('Paralelogramo')">
                             <img class="img-fluid" src="./images/paralelogramo.png" alt="">
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="p-2 bg-light rounded-3 d-flex justify-content-center align-items-center options"
                             onclick="changeClass('Trapezio')">
                             <img class="img-fluid" src="./images/trapezio.png" alt="">
@@ -104,7 +104,7 @@ if (isset($_POST['button1'])) {
                             </form>
 
                             <!-- QUADRADO -->
-                            <form class="form d-none flex-column" id="Quadrado" method="post">
+                            <form class="form d-none flex-column gap-3" id="Quadrado" method="post">
                                 <input class="form-control form-control-lg" type="number" placeholder="Lado (a)"
                                     name="a" required>
 
