@@ -1,0 +1,8 @@
+.options {
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.options:hover {
+    transform: scale(1.2);
+}
